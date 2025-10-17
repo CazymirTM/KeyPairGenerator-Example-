@@ -9,4 +9,6 @@ __How to use?:__
   - LicenseGenerator.cs — run when you want to create a token (uses private key).
           - Example: __LicenseGenerator.exe private_key.xml owner 60__
   - TokenVerifier.cs — use inside your custom app to verify tokens (uses public key).
-  - LoginForm.cs — use inside your custom app to make your login menu before the entry of your main app 
+  - LoginForm.cs — use inside your custom app to make your login menu before the entry of your main app
+
+__Public key goes only in your LoginForm.cs, that's it__
